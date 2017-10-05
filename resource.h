@@ -22,8 +22,8 @@
 #define OP_AND                                  40016
 #define OP_OR                                   40017
 #define OP_XOR                                  40018
-#define SEL_DEC                                 40019
-#define SEL_BIN                                 40020
+#define SEL_DEC                                 60019
+#define SEL_BIN                                 60020
 #define BUT_QUIT                                40021
 #define BUT_ABOUT                               40022
 #define OP_EQ                                   30023
