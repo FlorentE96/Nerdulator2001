@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1506985036 source:d:\meus documentos\downloads\lab3\nerdulator2001_src\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1506984845 d:\meus documentos\downloads\lab3\nerdulator2001_src\resource.h
+
+1506984845 source:d:\meus documentos\downloads\lab3\nerdulator2001_src\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1506998278 source:c:\users\florent\documents\school\ufrgs\microcontrollers 2\nerdulator2001\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<stdint.h>
+
+1506996377 c:\users\florent\documents\school\ufrgs\microcontrollers 2\nerdulator2001\resource.h
+
+1506996363 source:c:\users\florent\documents\school\ufrgs\microcontrollers 2\nerdulator2001\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
