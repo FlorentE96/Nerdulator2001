@@ -122,6 +122,22 @@ void toBinary(int16_t input , char * output){
             output[k] = val;
         }
     }
+    else
+    {
+        divider = -(++input);
+        do {
+            output[i++] = 1 - ((divider ) % 2) + '0';
+            divider = (int)(divider / 2);
+        } while(i!=15);
+        output[i]=0;
+        int j,k = 0;
+        for(j=i-1; j>=i/2; j--,k++){
+            char val = output[j];
+            output[j] = output[k];
+            output[k] = val;
+        }
+    }
+
 }
 /************************************************/
 BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
@@ -189,7 +205,6 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
             } else if(IS_OP_BUTTON(LOWORD(wParam)))
             {
                 if(flagMake) {
-                    cout << "updating operand2 from " << operand2 << " to " << disp_num << endl;
                     makeCalculation();
                 }
                 switch(LOWORD(wParam))
